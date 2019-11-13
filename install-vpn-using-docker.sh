@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# This scripts start OpenVPN server at
+# This script starts OpenVPN server at
 # UDP 443 and creates a clientconfig.ovpn file
-# the user can import on his device
+# which the user imports on his device
 
 which docker || apt install -y docker.io
 
